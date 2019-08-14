@@ -1,23 +1,24 @@
-## This readme help was created using "VSCODE" bcz its fun! and also commited using the commands that i will teach you now !! yay
+### This readme help was created using "VSCODE" bcz its fun! and also commited using the commands that i will teach you now !! yay
 
 
 ### very simple commands u need to follow after installing "git" from here .. ;)
-![](https://git-scm.com/download/)
+https://git-scm.com/download/
 
 ```sh
 
 <basics>
-#execute this command from the folder u want to upload 
+# run this command from the folder u want to upload (required only once)
 git init
 
-#to add all the files we are about to commit !!.... (u can remove files in a text file that will pop up now)
+# To add all the files we are about to commit !!.... (u can remove files in a text file that will pop up now)
 git add *
 
-#to commit all the files(u are commiting that your code is proper!! be sure ..it might hurt someone!)
+# To commit all the files(u are commiting that your code is proper!! be sure ..it might hurt someone!)
 git commit -m "edited this readme"
 
 
-#You’ve now got a local git repository. You can use git locally, like that, if you want. But if you want the thing to have a home on github, do the following.
+# You’ve now got a local git repository. You can use git locally, like that, if you want. 
+# But if you want the thing to have a home on github, do the following.
 
 Go to github.
 Log in to your account.
