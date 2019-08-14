@@ -16,7 +16,7 @@ git add *
 #to commit all the files
 git commit -m "edited this readme"
 
-#finally push ur folder
+#finally push ur folder (this will create the easy_github repo for me)
 git remote add origin https://github.com/rayanfer32/easy_github
 
 <modifying>
