@@ -16,14 +16,14 @@ git add *
 git commit -m "edited this readme"
 ```
 
-# You’ve now got a local git repository. You can use git locally, like that, if you want. 
-# But if you want the thing to have a home on github, do the following.
+### You’ve now got a local git repository. You can use git locally, like that, if you want. 
+### But if you want the thing to have a home on github, do the following.
 
-Go to github.
-Log in to your account.
-Click the new repository button in the top-right. 
-You’ll have an option there to initialize the repository with a README file, but I don’t.
-Click the “Create repository” button.
+### Go to github.
+### Log in to your account.
+### Click the new repository button in the top-right. 
+### You’ll have an option there to initialize the repository with a README file, but I don’t.
+### Click the “Create repository” button.
 
 ```sh
 #add(select) ur origin folder (this will create a easy_github repo for me...yay!)
@@ -40,8 +40,7 @@ git remote add origin https://github.com/rayanfer32/programming
 
 #do the < basics > again!! you will get used to it!!
 < Basics >
-```
-```sh
+
 #run this to finally push ur changes
 git push -u origin master
 
