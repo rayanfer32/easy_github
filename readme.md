@@ -13,11 +13,14 @@ git init
 #to add all the files we are about to commit !!.... (u can remove files in a text file that will pop up now)
 git add *
 
-#to commit all the files
+#to commit all the files(u are commiting that your code is proper!! be sure ..it might hurt someone!)
 git commit -m "edited this readme"
 
-#finally push ur folder (this will create the easy_github repo for me)
+#add(select) ur origin folder (this will create a easy_github repo for me...yay!)
 git remote add origin https://github.com/rayanfer32/easy_github
+
+#push(upload) ur code !!! DONE
+git push -u origin master
 
 <modifying>
 
