@@ -4,9 +4,8 @@
 ### very simple commands u need to follow after installing "git" from here .. ;)
 https://git-scm.com/download/
 
-```sh
-
-<basics>
+# <basics>
+```python
 # run this command from the folder u want to upload (required only once)
 git init
 
@@ -15,7 +14,7 @@ git add *
 
 # To commit all the files(u are commiting that your code is proper!! be sure ..it might hurt someone!)
 git commit -m "edited this readme"
-
+```
 
 # You’ve now got a local git repository. You can use git locally, like that, if you want. 
 # But if you want the thing to have a home on github, do the following.
@@ -26,17 +25,17 @@ Click the new repository button in the top-right.
 You’ll have an option there to initialize the repository with a README file, but I don’t.
 Click the “Create repository” button.
 
-
+```sh
 #add(select) ur origin folder (this will create a easy_github repo for me...yay!)
 git remote add origin https://github.com/rayanfer32/easy_github
 
 #push(upload) ur code !!! DONE
 git push -u origin master
-
-<modifying>
-
+```
+# <modifying>
+```sh
 # if u want to download and modify existing repo then do this,
-#origin will locate ur existing repo...
+# origin will locate ur existing repo...
 git remote add origin https://github.com/rayanfer32/programming
 
 #do the <basics> again!! you will get used to it!!
