@@ -4,7 +4,7 @@
 ### very simple commands u need to follow after installing "git" from here .. ;)
 ![](https://git-scm.com/download/)
 
-'''sh
+```sh
 
 <basics>
 #execute this command from the folder u want to upload 
@@ -50,7 +50,7 @@ fatal: refusing to merge unrelated histories
 git clone https://github.com/rayanfer32/programming
 
 #then do <modifying>
-'''
+```
 
 #if u get struck somewhere  
 # check this out!
