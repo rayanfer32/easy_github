@@ -4,7 +4,7 @@
 ### very simple commands u need to follow after installing "git" from here .. ;)
 https://git-scm.com/download/
 
-# <basics>
+> # < Basics >
 ```python
 # run this command from the folder u want to upload (required only once)
 git init
@@ -32,15 +32,16 @@ git remote add origin https://github.com/rayanfer32/easy_github
 #push(upload) ur code !!! DONE
 git push -u origin master
 ```
-# <modifying>
+> # < Modifying >
 ```sh
 # if u want to download and modify existing repo then do this,
 # origin will locate ur existing repo...
 git remote add origin https://github.com/rayanfer32/programming
 
-#do the <basics> again!! you will get used to it!!
-<basics>
-
+#do the < basics > again!! you will get used to it!!
+< Basics >
+```
+```sh
 #run this to finally push ur changes
 git push -u origin master
 
