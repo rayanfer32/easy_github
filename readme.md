@@ -4,6 +4,10 @@
 ### very simple commands u need to follow after installing "git" from here .. ;)
 https://git-scm.com/download/
 
+
+## Now if u want to ignore certain files ... like compiled .exe files
+https://labs.consol.de/development/git/2017/02/22/gitignore.html
+
 > # < Basics >
 ```python
 # run this command from the folder u want to upload (required only once)
@@ -15,6 +19,7 @@ git add *
 # To commit all the files(u are commiting that your code is proper!! be sure ..it might hurt someone!)
 git commit -m "edited this readme"
 ```
+
 
 ## You’ve now got a local git repository. You can use git locally, like that, if you want. 
 ## But if you want the thing to have a home on github, do the following.
