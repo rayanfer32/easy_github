@@ -68,11 +68,13 @@ git clone https://github.com/rayanfer32/programming
 
 # Extras 
 ### to show current remote location
-```git remote show origin
+```
+git remote show origin
 git remote show master
 ```
 ### to remove a remote(repo in github)   
-```git remote remove origin
+```
+git remote remove origin
 git remote remove master
 ```
 
