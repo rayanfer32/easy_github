@@ -35,7 +35,7 @@ git commit -m "edited this readme"
 git remote add origin https://github.com/rayanfer32/easy_github
 
 #push(upload) ur code !!! DONE
-git push -u origin master
+git push
 ```
 > # < Modifying >
 ```sh
@@ -47,7 +47,9 @@ git remote add origin https://github.com/rayanfer32/programming
 < Basics >
 
 #run this to finally push ur changes
-git push -u origin master
+git push
+
+#git push -u origin master   #use this to specify git branch if u do so
 
 #if u get this error
 fatal: refusing to merge unrelated histories
