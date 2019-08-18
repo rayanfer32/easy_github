@@ -66,6 +66,16 @@ git clone https://github.com/rayanfer32/programming
 #then do <modifying>
 ```
 
+# Extras 
+### to show current remote location
+```git remote show origin
+git remote show master
+```
+### to remove a remote(repo in github)   
+```git remote remove origin
+git remote remove master
+```
+
 # if u get struck somewhere,check this out!
 ## i learned from here!
 https://kbroman.org/github_tutorial/pages/init.html
