@@ -8,6 +8,12 @@ https://git-scm.com/download/
 ## Now if u want to ignore certain files ... like compiled .exe files
 https://labs.consol.de/development/git/2017/02/22/gitignore.html
 
+create a file with name .gitignore
+```
+*.exe
+.gitignore
+```
+
 > # < Basics >
 ```python
 # run this command from the folder u want to upload (required only once)
