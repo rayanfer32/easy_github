@@ -1,31 +1,28 @@
-### This readme help was created using "VSCODE" bcz its fun! and also commited using the commands that i will teach you now !! yay
+## Introduction:
+### Git Helps you manage your code by keeping track of your changes when you commit... and lets you rollback changes if you messed up!
 
-
-### very simple commands u need to follow after installing "git" from here .. ;)
+#### First Download This Git Manager 
 https://git-scm.com/download/
 
-
-## Now if u want to ignore certain files ... like compiled .exe files
-https://labs.consol.de/development/git/2017/02/22/gitignore.html
-
-create a file with name .gitignore
-```
-*.exe
-.gitignore
-```
-
-> # < Basics >
-```python
+# Basics
+```sh
 # run this command from the folder u want to upload (required only once)
 git init
 
 # To add all the files we are about to commit !!.... (u can remove files in a text file that will pop up now)
-git add *
+git add .
 
 # To commit all the files(u are commiting that your code is proper!! be sure ..it might hurt someone!)
 git commit -m "edited this readme"
 ```
+#### Now if You Want Manually ignore certain files ... like compiled .exe files
+reference: https://labs.consol.de/development/git/2017/02/22/gitignore.html
 
+#### Create a file with name .gitignore
+```
+*.exe
+.gitignore
+```
 
 ## You’ve now got a local git repository. You can use git locally, like that, if you want. 
 ## But if you want the thing to have a home on github, do the following.
@@ -43,14 +40,14 @@ git remote add origin https://github.com/rayanfer32/easy_github
 #push(upload) ur code !!! DONE
 git push
 ```
-> # < Modifying >
+# Modifying:
 ```sh
 # if u want to download and modify existing repo then do this,
 # origin will locate ur existing repo...
 git remote add origin https://github.com/rayanfer32/programming
 
-#do the < basics > again!! you will get used to it!!
-< Basics >
+#do the basics again!! you will get used to it!!
+`Basics`
 
 #run this to finally push ur changes
 git push
@@ -67,23 +64,24 @@ git clone https://github.com/rayanfer32/programming
 ```
 
 # Extras 
-### to show current remote location
+#### Show current remote location
 ```
 git remote show origin
 git remote show master
 ```
-### to remove a remote(repo in github)   
+#### Removing a remote (i.e: repo in github)   
 ```
 git remote remove origin
 git remote remove master
 ```
 
-# if u get struck somewhere,check this out!
-## i learned from here!
+# If You ever get struck somewhere,check this out!
+## I learned the stuff from here!
+
 https://kbroman.org/github_tutorial/pages/init.html
 
 git pull --help
 
 https://github.community/t5/How-to-use-Git-and-GitHub/How-to-deal-with-quot-refusing-to-merge-unrelated-histories-quot/td-p/12619
 
-# Always remember to pull(sync) with the repo from the github before modifying it!!
+# Always remember to pull(sync) with the remote repo from the github before modifying it!!
