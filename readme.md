@@ -4,7 +4,7 @@
 #### First Download This Git Manager 
 https://git-scm.com/download/
 
-# Basics
+## Basics
 ```sh
 # run this command from the folder u want to upload (required only once)
 git init
@@ -18,14 +18,14 @@ git commit -m "edited this readme"
 #### Now if You Want Manually ignore certain files ... like compiled .exe files
 reference: https://labs.consol.de/development/git/2017/02/22/gitignore.html
 
-#### Create a file with name .gitignore
+#### Create a file with name `.gitignore`
 ```
 *.exe
 .gitignore
 ```
 
-## You’ve now got a local git repository. You can use git locally, like that, if you want. 
-## But if you want the thing to have a home on github, do the following.
+### You’ve now got a local git repository. You can use git locally, like that, if you want. 
+### But if you want the thing to have a home on github, do the following.
 
 ##### Go to github.
 ##### Log in to your account.
@@ -40,7 +40,7 @@ git remote add origin https://github.com/rayanfer32/easy_github
 #push(upload) ur code !!! DONE
 git push
 ```
-# Modifying:
+## Modifying:
 ```sh
 # if u want to download and modify existing repo then do this,
 # origin will locate ur existing repo...
@@ -63,7 +63,7 @@ git clone https://github.com/rayanfer32/programming
 #then do <modifying>
 ```
 
-# Extras 
+## Extras 
 #### Show current remote location
 ```
 git remote show origin
@@ -80,7 +80,7 @@ git remote remove master
 
 https://kbroman.org/github_tutorial/pages/init.html
 
-git pull --help
+`git pull --help`
 
 https://github.community/t5/How-to-use-Git-and-GitHub/How-to-deal-with-quot-refusing-to-merge-unrelated-histories-quot/td-p/12619
 
