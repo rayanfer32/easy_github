@@ -38,7 +38,10 @@ reference: https://labs.consol.de/development/git/2017/02/22/gitignore.html
 git remote add origin https://github.com/rayanfer32/easy_github
 
 #push(upload) ur code !!! DONE
-git push
+git push origin master:main
+
+# Only if you face errors 
+git push origin master:main --force
 ```
 ## Modifying:
 ```sh
